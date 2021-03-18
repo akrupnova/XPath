@@ -1,0 +1,28 @@
+https://topswagcode.com/xpath/
+
+#01  //plate or plate
+#02  //bento or bento
+#03  //plate/apple
+#04  //*
+#05  //*/apple
+#06  //*[@id="fancy"]
+#07  //plate/apple
+#08  //*[@id="fancy"]/pickle
+#09  //*[contains(@class,"small")]
+#10  //orange[contains(@class, "small")]
+#11  //bento/orange[contains(@class,"small")]
+#12  //plate|//bento
+#13  //plate/*
+#14  //plate/following-sibling::apple
+#15  //plate/preceding-sibling::pickle
+#16  (pickle)[2]
+#17  //plate/apple
+#18  //plate/*[last()]
+#19  //plate/apple[last()]
+#20  //plate/apple[last()-1]
+#21  //*[@for]
+#22  //plate[@for]
+#23  //bento[@for="Vitaly"]
+#24  //plate[@id="fancy" and @for="Hanna"]/apple
+#25 //*[starts-with(@for,"Sa")]
+#26  //*[substring(@for, string-length(@for) - string-length('ato') +1) = 'ato']
